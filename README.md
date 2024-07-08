@@ -29,3 +29,22 @@ Definition of Done (DoD):
 
 
 Link to new-project Readme file
+
+
+Instruction:
+
+1. Mkdir new-project
+2. cd new-project
+3. git init
+4. vi README.md
+5. git add README.md
+6. git commit -m "init"
+7. git branch development
+8. git checkout development
+9. git README.md
+10. git commit -am "updated README.md"
+11. git checkout main
+12. git merge development
+13. git status
+14. Vi README.md
+15. git commit -am "Merged development"
